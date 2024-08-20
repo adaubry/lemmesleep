@@ -72,7 +72,7 @@ export const FAQService = () => {
   return (
     <div className="mx-auto max-w-3xl px-8 py-4">
       <Heading className="pt-4 text-[color:var(--text-color)]">
-        D'autres questions?
+        D&apos;autres questions?
       </Heading>
       <div className="grid gap-4 pt-20">
         {questions.map((item, i) => (

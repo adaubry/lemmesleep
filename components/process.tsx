@@ -23,7 +23,7 @@ export const Process = () => {
     {
       title: "Identification des stakeholders",
       description:
-        "Analyse et repérage des parties prenantes clés pour assurer l'alignement stratégique de vos projets",
+        "Analyse et repérage des parties prenantes clés pour assurer l&apos;alignement stratégique de vos projets",
       content: (
         <LottieAnimation src="/lottie/identification-stakeholder.json" />
       ),
@@ -89,15 +89,5 @@ export const Process = () => {
       </div>
       <StickyScroll content={content} />
     </motion.div>
-  );
-};
-
-const ImageContainer = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <div className="">
-      {children}
-      <div className="absolute inset-x-0 bottom-0 h-px w-full bg-gradient-to-r from-transparent via-secondary to-transparent" />
-      <div className="absolute inset-x-10 bottom-0 mx-auto h-px w-40 bg-gradient-to-r from-[transparent] via-[var(--secondary)] to-transparent" />
-    </div>
   );
 };

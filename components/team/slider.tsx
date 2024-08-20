@@ -5,6 +5,7 @@ import Image, { StaticImageData } from "next/image";
 import { Transition } from "@headlessui/react";
 import { SparklesCore } from "../ui/sparkles";
 import { Subheading } from "../subheading";
+import Link from "next/link";
 
 export const TestimonialsSlider = () => {
   return (
@@ -46,9 +47,15 @@ export const TestimonialsSlider = () => {
             {/* Text */}
             <div className="mb-10 px-8 transition-all delay-300 duration-150 ease-in-out sm:px-6">
               <Subheading>
-                Collaborer avec Lumena, c'est la garantie d'obtenir une
-                expertise personnalisée ainsi que des résultats mesurables.
+                Collaborer avec Lumena, c&apos;est la garantie d&apos;obtenir
+                une expertise personnalisée ainsi que des résultats mesurables.
               </Subheading>
+              <Link
+                href="/a-propos"
+                className="text-[var(--button)] hover:text-[var(--button-hover)]"
+              >
+                En savoir plus
+              </Link>
             </div>
           </div>
         </div>

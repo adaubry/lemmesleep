@@ -99,14 +99,13 @@ export const ScrollContent = ({
         >
           <div className="font-hidden h-0.5 w-32 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]"></div>
 
-          {/**WIP text scroll desktop */}
           <motion.h2 className="mt-2 inline-block text-left text-5xl font-bold text-[color:var(--text-color)]">
             {item.title}
           </motion.h2>
-          {/**WIP */}
           <motion.p className="mt-2 text-left text-3xl font-normal text-[var(--text-muted)]">
             {item.description}
           </motion.p>
+          <motion.p className="">{item.src}</motion.p>
         </motion.div>
       </div>
 
@@ -136,11 +135,6 @@ export const ScrollContentMobile = ({
   };
   index: number;
 }) => {
-  const linearGradients = [
-    "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
-    "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
-    "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
-  ];
   return (
     <motion.div
       transition={{
@@ -153,12 +147,10 @@ export const ScrollContentMobile = ({
         <motion.div className="mb-6">
           <div className="font-hidden h-0.5 w-32 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]"></div>
 
-          {/**WIP */}
           <motion.h2 className="mt-2 inline-block text-left text-3xl font-bold text-[color:var(--text-color)]">
             {item.title}
           </motion.h2>
 
-          {/**WIP text scroll mobile*/}
           <motion.p className="mt-2 max-w-sm text-xl font-normal text-[var(--text-muted)]">
             {item.description}
           </motion.p>

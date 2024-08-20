@@ -1,6 +1,6 @@
 "use client";
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, LayoutGroup } from "framer-motion";
+import React, { useCallback, useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export const FlipWords = ({
@@ -51,7 +51,7 @@ export const FlipWords = ({
         }}
         exit={{
           opacity: 0,
-          y: -40,
+          y: 0,
           x: 40,
           filter: "blur(8px)",
           scale: 2,
@@ -66,10 +66,10 @@ export const FlipWords = ({
             initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{
-              delay: index * 0.08,
+              delay: index * 0.02,
               duration: 0.4,
             }}
-            className="justify-center "
+            className="justify-center"
           >
             {letter}
           </motion.span>

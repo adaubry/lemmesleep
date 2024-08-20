@@ -9,7 +9,7 @@ import { Button } from "./ui/button";
 export function Hero() {
   const words = ["Définissez", "Trouvez", "Convertissez"];
   return (
-    <div className="bg- flex h-[40rem] w-screen antialiased md:items-center md:justify-center">
+    <div className="bg- flex h-[40rem] w-screen overflow-hidden antialiased md:items-center md:justify-center">
       <Spotlight
         className="-top-10 left-0 md:-top-20 md:left-60"
         fill="white"
@@ -26,7 +26,7 @@ export function Hero() {
           <br />
           Augmentez votre retour sur investissement
           <br />
-          <Button className="my-4">Nous découvrir</Button>
+          <Button className="my-4">Prendre rendez-vous</Button>
         </Subheading>
       </div>
     </div>

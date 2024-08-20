@@ -405,7 +405,7 @@ export function Worldwide() {
           Lumena opère sur tous les territoires francophones
         </Subheading>
       </div>
-      <div className="pointer-events-none relative mx-auto h-fit w-full max-w-7xl overflow-hidden border-2 border-green-500 px-4 md:h-[40rem]">
+      <div className="pointer-events-none relative mx-auto h-fit w-full max-w-7xl overflow-hidden px-4 md:h-[40rem]">
         <motion.div
           initial={{
             opacity: 0,
@@ -420,10 +420,10 @@ export function Worldwide() {
           }}
           className="div"
         >
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 z-40 mx-auto h-[16rem] w-96 select-none border-2 border-red-500 bg-gradient-to-b from-transparent via-[var(--background)] to-[var(--background)] dark:to-black md:h-[30rem] md:w-[40rem]">
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 z-40 mx-auto h-[16rem] w-96 select-none bg-gradient-to-b from-transparent via-[var(--background)] to-[var(--background)] dark:to-black md:h-[30rem] md:w-[40rem]">
             <Flags />
           </div>
-          <div className="mx-auto h-96 w-96 border-2 border-sky-500 md:h-[40rem] md:w-[40rem]">
+          <div className="mx-auto h-96 w-96 md:h-[40rem] md:w-[40rem]">
             <World data={sampleArcs} globeConfig={globeConfig} />
           </div>
         </motion.div>

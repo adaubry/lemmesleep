@@ -6,7 +6,6 @@ import { Subheading } from "@/components/subheading";
 import { StickyScroll } from "./sticky-scroll-services";
 import { useScroll } from "framer-motion";
 import LottieAnimation from "@/components/ui/lottie-animation";
-import { Button, buttonVariants } from "../ui/button";
 import Link from "next/link";
 
 export const NosServices = () => {
@@ -17,8 +16,11 @@ export const NosServices = () => {
         "Définissez, identifiez, localisez et faites vous connaitre auprès de vos prochain clients. Nous pouvons vous aider à personnaliser la meilleure approche",
       content: <LottieAnimation src="/lottie/bundle.json" />,
       src: (
-        <Link href="/" className={buttonVariants({ variant: "outline" })}>
-          Click here
+        <Link
+          href="/nos-services/audience-identification"
+          className="text-[var(--button)] hover:text-[var(--button-hover)]"
+        >
+          En savoir plus
         </Link>
       ),
     },
@@ -28,19 +30,25 @@ export const NosServices = () => {
         "Un marketing complet pour engager des prospects sur le marché et développer votre pipeline sur tous les canaux. Nos données, nos solutions et notre assistance seront adaptées à tous vos besoins.",
       content: <LottieAnimation src="/lottie/leadgen.json" />,
       src: (
-        <Link href="/" className={buttonVariants({ variant: "outline" })}>
-          Click here
+        <Link
+          href="/nos-services/lead-generation"
+          className="text-[var(--button)] hover:text-[var(--button-hover)]"
+        >
+          En savoir plus
         </Link>
       ),
     },
     {
       title: "BDR/SDR en tant que service",
       description:
-        "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu'à la conclusion auprès des décideurs clés.",
+        "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu&apos;à la conclusion auprès des décideurs clés.",
       content: <LottieAnimation src="/lottie/srdservice.json" />,
       src: (
-        <Link href="/" className={buttonVariants({ variant: "outline" })}>
-          Click here
+        <Link
+          href="/nos-services/sdr-as-a-service"
+          className="text-[var(--button)] hover:text-[var(--button-hover)]"
+        >
+          En savoir plus
         </Link>
       ),
     },

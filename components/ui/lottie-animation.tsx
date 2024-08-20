@@ -44,12 +44,7 @@ const LottieAnimation: React.FC<LottieAnimationProps> = ({ src }) => {
     }
   }, [animationData]);
 
-  return (
-    <div
-      ref={containerRef}
-      className="h-full w-full max-w-[60rem] border-2 border-purple-500"
-    />
-  );
+  return <div ref={containerRef} className="h-full w-full max-w-[60rem]" />;
 };
 
 export default LottieAnimation;

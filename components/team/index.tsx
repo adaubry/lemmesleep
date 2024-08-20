@@ -1,12 +1,8 @@
 "use client";
 import React from "react";
 import { TestimonialsSlider } from "./slider";
-import { FeatureIconContainer } from "../services/feature-icon-container";
 import { Heading } from "../heading";
 import { Subheading } from "../subheading";
-import { TbLocationBolt } from "react-icons/tb";
-import { cn } from "@/lib/utils";
-import Image from "next/image";
 import { SVGGrid } from "./grid";
 
 export const Team = () => {
