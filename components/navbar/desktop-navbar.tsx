@@ -73,7 +73,9 @@ export const DesktopNavbar = ({ navItems }: Props) => {
         </div>
       </div>
       <div className="flex items-center space-x-2">
-        <Button>Prenez rendez-vous</Button>
+        <Link href={"/contact"}>
+          <Button>Prenez rendez-vous</Button>
+        </Link>
       </div>
     </motion.div>
   );

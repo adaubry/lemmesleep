@@ -12,6 +12,7 @@ export default function Home() {
         subheadingText="Définissez, trouvez et convertissez votre client idéal"
         buttonText="Prenez rendez-vous"
         lottieFile="/lottie/bundle.json"
+        redirect="/contact"
       ></HeroService>
       <div>
         <Heading>L&apos;Essence de Notre Savoir-Faire</Heading>

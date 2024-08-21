@@ -69,6 +69,7 @@ export default function Home() {
         subheadingText="Définir, identifier, localiser et engager vos futurs clients est essentiel pour développer un pipeline efficace."
         buttonText="Prenez rendez-vous"
         lottieFile="/lottie/bundle.json"
+        redirect="/contact"
       />
       <CharacteristicService
         heading="Maximisez vos opportunités"

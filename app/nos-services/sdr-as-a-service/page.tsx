@@ -68,6 +68,7 @@ export default function Home() {
         subheadingText="Concentrez-vous sur votre activité tout en laissant nos experts SDR/BDR gérer la phase cruciale de la prospection."
         buttonText="Prenez rendez-vous"
         lottieFile="/lottie/bundle.json"
+        redirect="/contact"
       />
 
       <CharacteristicService

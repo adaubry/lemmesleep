@@ -33,7 +33,7 @@ export const CTA: React.FC<CTAProps> = ({
             </Subheading>
           </div>
         </div>
-        <Link href={"/"}>
+        <Link href={"/contact"}>
           <Button className="group flex items-center space-x-2 !text-lg">
             <span>{buttonText}</span>
             <HiArrowRight className="mt-0.5 h-3 w-3 stroke-[1px] text-black transition-transform duration-200 group-hover:translate-x-1" />

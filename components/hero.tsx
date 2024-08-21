@@ -5,6 +5,7 @@ import { FlipWords } from "./ui/flip-words";
 import { Heading } from "./heading";
 import { Subheading } from "./subheading";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export function Hero() {
   const words = ["Définissez", "Trouvez", "Convertissez"];
@@ -26,7 +27,9 @@ export function Hero() {
           <br />
           Augmentez votre retour sur investissement
           <br />
-          <Button className="my-4">Prendre rendez-vous</Button>
+          <Link href="/contact">
+            <Button className="my-4">Prendre rendez-vous</Button>
+          </Link>
         </Subheading>
       </div>
     </div>

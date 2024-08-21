@@ -66,6 +66,7 @@ export default function Home() {
         subheadingText="Atteignez vos acheteurs idéaux avec une précision exceptionnelle"
         buttonText="Prenez rendez-vous"
         lottieFile="/lottie/bundle.json"
+        redirect="/contact"
       />
       <CharacteristicService
         heading="Maximisez vos opportunités"

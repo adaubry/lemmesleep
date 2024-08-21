@@ -3,20 +3,20 @@ import Image from "next/image";
 import React from "react";
 import { cn } from "@/lib/utils";
 
-// Supposons que nous avons 16 SVG différents
+// WIP, rajouter des logos quand ils en auront a display
 const svgFiles = [
   "/svg/vercel.svg",
-  "/svg/lenovo.svg",
-  "/svg/anteriad.svg",
-  "/svg/vercel.svg",
-  "/svg/anteriad.svg",
-  "/svg/cloudflare.svg",
-  "/svg/hp.svg",
-  "/svg/lenovo.svg",
-  "/svg/hp.svg",
   "/svg/vercel.svg",
   "/svg/vercel.svg",
-  "/svg/cloudflare.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
+  "/svg/vercel.svg",
 ];
 
 export const SVGGrid = () => {

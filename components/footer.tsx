@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { Button } from "./ui/button";
 
 export const Footer = () => {
   const links = [
@@ -10,7 +9,7 @@ export const Footer = () => {
       href: "/nos-services/sdr-as-a-service",
     },
     {
-      name: "Identification d&apos;audience",
+      name: "Identification d'audience",
       href: "/nos-services/audience-identification",
     },
     {
