@@ -7,6 +7,7 @@ import { HiArrowRight } from "react-icons/hi2";
 import { Container } from "../container";
 import { Subheading } from "../subheading";
 import { Heading } from "../heading";
+import Link from "next/link";
 
 interface CTAProps {
   heading?: string;
@@ -32,10 +33,12 @@ export const CTA: React.FC<CTAProps> = ({
             </Subheading>
           </div>
         </div>
-        <Button className="group flex items-center space-x-2 !text-lg">
-          <span>{buttonText}</span>
-          <HiArrowRight className="mt-0.5 h-3 w-3 stroke-[1px] text-black transition-transform duration-200 group-hover:translate-x-1" />
-        </Button>
+        <Link href={"/"}>
+          <Button className="group flex items-center space-x-2 !text-lg">
+            <span>{buttonText}</span>
+            <HiArrowRight className="mt-0.5 h-3 w-3 stroke-[1px] text-black transition-transform duration-200 group-hover:translate-x-1" />
+          </Button>
+        </Link>
       </Container>
     </div>
   );

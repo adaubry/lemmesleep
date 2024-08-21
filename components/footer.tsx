@@ -43,11 +43,10 @@ export const Footer = () => {
               <div className="m-4">
                 <Image src="svg/logo.svg" height="100" width="100" alt="t" />
               </div>
-              <Button>Appelez nous</Button>
             </div>
             <div className="my-auto">
-              <div>Copyright &copy; 2024 Proactiv INC</div>
-              <div className="mt-2">All rights reserved</div>
+              <div>Copyright &copy; 2024 Lumena</div>
+              <div className="mt-2">Tout droits réservés</div>
             </div>
           </div>
           <div className="mt-10 hidden grid-cols-3 items-start gap-10 md:mt-0 md:grid">

@@ -40,7 +40,9 @@ export const MobileNavbar = ({ navItems }: any) => {
       {open && (
         <div className="fixed inset-0 z-50 flex flex-col items-start justify-start space-y-10 bg-black pt-5 text-xl text-zinc-600 transition duration-200 hover:text-zinc-800">
           <div className="flex w-full items-center justify-between px-5">
-            <Image src="/svg/next.svg" alt="t" height="100" width="100" />
+            <Link href={"/"}>
+              <Image src="/svg/logo.svg" alt="t" height="100" width="100" />
+            </Link>
             <div className="flex items-center space-x-2">
               <IoIosClose
                 className="h-8 w-8 text-white"
@@ -82,7 +84,9 @@ export const MobileNavbar = ({ navItems }: any) => {
             ))}
           </div>
           <div className="flex w-full flex-row items-start gap-2.5 px-8 py-4">
-            <Button>Prenez rendez-vous</Button>
+            <Link href={"/contact"}>
+              <Button>Prenez rendez-vous</Button>
+            </Link>
           </div>
         </div>
       )}
