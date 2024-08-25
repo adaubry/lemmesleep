@@ -8,13 +8,14 @@ export const Flags = () => {
       title: "belgique",
       src: "/svg/belgique.svg",
     },
-    {
-      title: "france",
-      src: "/svg/france.svg",
-    },
+
     {
       title: "suisse",
       src: "/svg/suisse.svg",
+    },
+    {
+      title: "france",
+      src: "/svg/france.svg",
     },
     {
       title: "canada",

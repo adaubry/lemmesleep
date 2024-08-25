@@ -31,7 +31,7 @@ export const MobileNavbar = ({ navItems }: any) => {
       )}
     >
       <Link href={"/"}>
-        <Image src="/svg/logo.svg" alt="t" height="100" width="100" />
+        <Image src="/svg/logov2.svg" alt="t" height="100" width="100" />
       </Link>
       <IoIosMenu
         className="h-6 w-6 text-white"
@@ -41,7 +41,7 @@ export const MobileNavbar = ({ navItems }: any) => {
         <div className="fixed inset-0 z-50 flex flex-col items-start justify-start space-y-10 bg-black pt-5 text-xl text-zinc-600 transition duration-200 hover:text-zinc-800">
           <div className="flex w-full items-center justify-between px-5">
             <Link href={"/"}>
-              <Image src="/svg/logo.svg" alt="t" height="100" width="100" />
+              <Image src="/svg/logov2.svg" alt="t" height="100" width="100" />
             </Link>
             <div className="flex items-center space-x-2">
               <IoIosClose

@@ -6,6 +6,13 @@ import { SVGGrid } from "@/components/team/grid";
 import { SparklesCore } from "@/components/ui/sparkles";
 import React from "react";
 import Image from "next/image";
+import { FeatureIconContainer } from "@/components/feature-icon-container";
+import {
+  GiArcheryTarget,
+  GiChessKnight,
+  GiPalette,
+  GiRocket,
+} from "react-icons/gi";
 
 const page = () => {
   return (
@@ -14,12 +21,13 @@ const page = () => {
         <div className="mb-20"></div>
 
         <div className="mx-auto max-w-96 md:max-w-xl">
+          <FeatureIconContainer className="flex items-center justify-center overflow-hidden">
+            <GiArcheryTarget className="h-6 w-6 text-white" />
+          </FeatureIconContainer>
           <Heading>Votre réussite est notre mission.</Heading>
           <Subheading>
-            Fondée en 2024 par <br />
-            Nahel Medja et Steven Dhaisne,
-            <br />
-            <br /> Lumena est une agence de communication-marketing 360
+            Fondée en 2024, <br />
+            Lumena est une agence de communication-marketing 360
             <br />
             dédiée à transformer votre entreprise <br />
             <br />
@@ -27,6 +35,9 @@ const page = () => {
           </Subheading>
         </div>
         <div className="mx-auto max-w-96 md:max-w-xl">
+          <FeatureIconContainer className="flex items-center justify-center overflow-hidden">
+            <GiChessKnight className="h-6 w-6 text-white" />
+          </FeatureIconContainer>
           <Heading>Plus qu&apos;une agence, un partenaire stratégique.</Heading>
           <Subheading>
             Chez Lumena, nous comprenons que chaque entreprise est unique.
@@ -40,6 +51,9 @@ const page = () => {
           </Subheading>
         </div>
         <div className="mx-auto max-w-96 md:max-w-xl">
+          <FeatureIconContainer className="flex items-center justify-center overflow-hidden">
+            <GiPalette className="h-6 w-6 text-white" />
+          </FeatureIconContainer>
           <Heading>Personnalisation et réactivité.</Heading>
           <Subheading>
             La spécificité de Lumena repose sur la diversité de nos services et
@@ -54,6 +68,9 @@ const page = () => {
           </Subheading>
         </div>
         <div className="mx-auto max-w-96 md:max-w-xl">
+          <FeatureIconContainer className="flex items-center justify-center overflow-hidden">
+            <GiRocket className="h-6 w-6 text-white" />
+          </FeatureIconContainer>
           <Heading>Notre expertise</Heading>
           <Subheading>
             Nous mettons en place des stratégies qui génèrent des leads

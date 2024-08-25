@@ -39,9 +39,9 @@ export const NosServices = () => {
       ),
     },
     {
-      title: "BDR/SDR en tant que service",
+      title: "BDR/SDR en qualité de service",
       description:
-        "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu&apos;à la conclusion auprès des décideurs clés.",
+        "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu'à la conclusion auprès des décideurs clés.",
       content: <LottieAnimation src="/lottie/srdservice.json" />,
       src: (
         <Link

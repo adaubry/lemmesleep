@@ -31,7 +31,7 @@ const content = [
   {
     title: "Précision inégalées",
     description:
-      "Bénéficiez d&apos;une portée élargie combinée à un niveau exceptionnel de précision dans vos campagnes.",
+      "Bénéficiez d'une portée élargie combinée à un niveau exceptionnel de précision dans vos campagnes.",
     content: (
       <Subheading className="text-left md:max-w-xl md:text-center lg:my-80">
         Accédez à une vaste gamme de sources et contacts, avec une précision
@@ -54,7 +54,7 @@ const metricsData = [
   },
   {
     value: "80% ",
-    label: "Réduction des coûts d&apos;acquisition",
+    label: "Réduction des coûts d'acquisition",
   },
 ];
 

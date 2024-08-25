@@ -40,7 +40,7 @@ export const Footer = () => {
           <div className="flex flex-row md:flex-col">
             <div className="mb-4 mr-4 flex flex-col md:flex">
               <div className="m-4">
-                <Image src="svg/logo.svg" height="100" width="100" alt="t" />
+                <Image src="svg/logov2.svg" height="100" width="100" alt="t" />
               </div>
             </div>
             <div className="my-auto">

@@ -64,7 +64,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-40 bg-[color:var(--background)] text-[color:var(--text-color)] md:gap-80">
       <HeroService
-        headingText="SDR/BDR en tant que service"
+        headingText="SDR/BDR en qualité de service"
         subheadingText="Concentrez-vous sur votre activité tout en laissant nos experts SDR/BDR gérer la phase cruciale de la prospection."
         buttonText="Prenez rendez-vous"
         lottieFile="/lottie/bundle.json"

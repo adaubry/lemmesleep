@@ -60,7 +60,7 @@ export const Services = () => {
           <CardSkeletonContainer showGradient={false} className="mx-auto">
             <LottieAnimation src="/lottie/srdservice.json" />
           </CardSkeletonContainer>
-          <CardTitle>BDR/SDR en tant que service</CardTitle>
+          <CardTitle>BDR/SDR en qualité de service</CardTitle>
           <CardDescription>
             Boostez vos ventes avec des BDR et SDR experts. De la prospection
             jusqu&apos;à la conclusion auprès des décideurs clés.
