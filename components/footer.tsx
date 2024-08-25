@@ -24,7 +24,7 @@ export const Footer = () => {
     },
     {
       name: "A propos",
-      href: "/notre-equipe",
+      href: "/a-propos",
     },
     {
       name: "Contact",

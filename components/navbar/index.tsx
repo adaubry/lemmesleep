@@ -10,7 +10,7 @@ const navItems = [
   },
   {
     title: "A propos",
-    link: "/notre-equipe",
+    link: "/a-propos",
   },
   {
     title: "Contact",
