@@ -11,6 +11,20 @@ import Link from "next/link";
 export const NosServices = () => {
   const content = [
     {
+      title: "BDR/SDR en qualité de service",
+      description:
+        "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu'à la conclusion auprès des décideurs clés.",
+      content: <LottieAnimation src="/lottie/srdservice.json" />,
+      src: (
+        <Link
+          href="/nos-services/sdr-as-a-service"
+          className="text-[var(--button)] hover:text-[var(--button-hover)]"
+        >
+          En savoir plus
+        </Link>
+      ),
+    },
+	  {
       title: "Identification de votre audience",
       description:
         "Définissez, identifiez, localisez et faites vous connaitre auprès de vos prochain clients. Nous pouvons vous aider à personnaliser la meilleure approche",
@@ -32,20 +46,6 @@ export const NosServices = () => {
       src: (
         <Link
           href="/nos-services/lead-generation"
-          className="text-[var(--button)] hover:text-[var(--button-hover)]"
-        >
-          En savoir plus
-        </Link>
-      ),
-    },
-    {
-      title: "BDR/SDR en qualité de service",
-      description:
-        "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu'à la conclusion auprès des décideurs clés.",
-      content: <LottieAnimation src="/lottie/srdservice.json" />,
-      src: (
-        <Link
-          href="/nos-services/sdr-as-a-service"
           className="text-[var(--button)] hover:text-[var(--button-hover)]"
         >
           En savoir plus
@@ -92,13 +92,11 @@ export const NosServices = () => {
       ref={ref}
       className="relative h-full w-full pt-20 md:pt-40"
     >
-      <div className="px-6">
-        <Heading className="mt-4">Nos Services</Heading>
-        <Subheading>
-          Une sélection de services alliant savoir-faire et expérience, pour
-          créer des opportunités, qualifier vos prospects et accélérer votre
-          croissance.
-        </Subheading>
+      <div className="">
+        <Heading className="mt-4">Notre offre phare</Heading>
+	<Subheading>
+        Renforcez votre équipe commerciale avec nos experts dédiés. Que ce soit pour un besoin ponctuel ou sur le long terme, notre service vous permet de booster votre croissance sans les contraintes du recrutement.
+	</Subheading>
       </div>
       <StickyScroll content={content} />
     </motion.div>

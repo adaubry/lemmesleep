@@ -49,7 +49,7 @@ const content = [
 const metricsData = [
   {
     value: "20%",
-    label: "D&apos;augmentation des lead de votre site",
+    label: "D'augmentation des lead de votre site",
   },
   {
     value: "2x",

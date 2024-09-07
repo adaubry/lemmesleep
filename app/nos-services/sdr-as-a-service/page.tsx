@@ -8,7 +8,7 @@ const content = [
   {
     title: "Gestion complète du cycle de prospection",
     description:
-      "Nous prenons en charge chaque étape de la prospection, de la qualification des leads à l&apos;opportunité concrète.",
+      "Nous prenons en charge chaque étape de la prospection, de la qualification des leads à l'opportunité concrète.",
     content: (
       <Subheading className="md:max-w-xl lg:my-80">
         Réduisez vos coûts d&apos;acquisition tout en augmentant vos chances de
@@ -52,7 +52,7 @@ const metricsData = [
   },
   {
     value: "36%",
-    label: "Des contrats d&apos;emploiement sont rompus dès la première année",
+    label: "Des contrats d'emploiement sont rompus dès la première année",
   },
   {
     value: "12%",

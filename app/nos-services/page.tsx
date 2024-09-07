@@ -17,18 +17,16 @@ export default function Home() {
       <div>
         <Heading>L&apos;Essence de Notre Savoir-Faire</Heading>
         <Subheading>
-          La spécificité de Lumena est et restera toujours la variété de nos
-          services et notre réactivité quelle que soit la nature de votre
-          organisation, pas de solution toute faite ou de discours opaque
-        </Subheading>
+        Grâce à notre expertise et notre approche proactive, nous garantissons des solutions dynamiques et personnalisées, toujours orientées vers l'atteinte de vos objectifs commerciaux, avec une communication claire et des actions concrètes.
+	</Subheading>
       </div>
       <div>
         <NosServices />
         <div className="w-screen">
           <CTA
-            heading="Transform your business with our cutting-edge solutions"
-            description="Our platform offers innovative tools designed to accelerate your growth. Join our community of successful businesses today."
-            buttonText="Schedule a demo"
+            heading="Révolutionnez votre stratégie de vente dès aujourd'hui"
+            description="Bénéficiez d'une approche sur-mesure pour la prospection commerciale. Réduisez vos coûts d'acquisition, maximisez vos performances"
+            buttonText="Prenez rendez-vous"
           />
         </div>
       </div>

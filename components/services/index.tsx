@@ -39,7 +39,24 @@ export const Services = () => {
             En savoir plus
           </Link>
         </Card>
-        <Card>
+	<Card className="border border-[var(--button)]">
+          <CardSkeletonContainer showGradient={false} className="mx-auto">
+            <LottieAnimation src="/lottie/srdservice.json" />
+          </CardSkeletonContainer>
+          <CardTitle>BDR/SDR en qualité de service</CardTitle>
+          <CardDescription>
+            Boostez vos ventes avec des BDR et SDR experts. De la prospection
+            jusqu&apos;à la conclusion auprès des décideurs clés.
+          </CardDescription>
+          <Link
+            href="/nos-services/sdr-as-a-service"
+            className="text-[var(--button)] hover:text-[var(--button-hover)]"
+          >
+            En savoir plus
+          </Link>
+        </Card>
+
+	<Card>
           <CardSkeletonContainer showGradient={false} className="mx-auto">
             <LottieAnimation src="/lottie/leadgen.json" />
           </CardSkeletonContainer>
@@ -51,22 +68,6 @@ export const Services = () => {
           </CardDescription>
           <Link
             href="/nos-services/lead-generation"
-            className="text-[var(--button)] hover:text-[var(--button-hover)]"
-          >
-            En savoir plus
-          </Link>
-        </Card>
-        <Card>
-          <CardSkeletonContainer showGradient={false} className="mx-auto">
-            <LottieAnimation src="/lottie/srdservice.json" />
-          </CardSkeletonContainer>
-          <CardTitle>BDR/SDR en qualité de service</CardTitle>
-          <CardDescription>
-            Boostez vos ventes avec des BDR et SDR experts. De la prospection
-            jusqu&apos;à la conclusion auprès des décideurs clés.
-          </CardDescription>
-          <Link
-            href="/nos-services/sdr-as-a-service"
             className="text-[var(--button)] hover:text-[var(--button-hover)]"
           >
             En savoir plus
