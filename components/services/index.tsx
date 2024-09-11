@@ -22,9 +22,14 @@ export const Services = () => {
 
       <div className="grid grid-cols-1 gap-2 py-10 lg:grid-cols-3">
         <Card>
+	<Link
+            href="/nos-services/audience-identification"
+            className="text-[var(--button)] hover:text-[var(--button-hover)]"
+          >
           <CardSkeletonContainer showGradient={false} className="mx-auto">
             <LottieAnimation src="/lottie/bundle.json" />
           </CardSkeletonContainer>
+	  </Link>
           <CardTitle>Identification de votre audience</CardTitle>
           <CardDescription>
             Définissez, identifiez, localisez et faites vous connaitre auprès de
@@ -40,9 +45,15 @@ export const Services = () => {
           </Link>
         </Card>
 	<Card className="border border-[var(--button)]">
+	<Link
+            href="/nos-services/sdr-as-a-service"
+            className="text-[var(--button)] hover:text-[var(--button-hover)]"
+          >
           <CardSkeletonContainer showGradient={false} className="mx-auto">
             <LottieAnimation src="/lottie/srdservice.json" />
           </CardSkeletonContainer>
+
+	  </Link>
           <CardTitle>BDR/SDR en qualité de service</CardTitle>
           <CardDescription>
             Boostez vos ventes avec des BDR et SDR experts. De la prospection
@@ -57,9 +68,14 @@ export const Services = () => {
         </Card>
 
 	<Card>
+        <Link
+            href="/nos-services/lead-generation"
+            className="text-[var(--button)] hover:text-[var(--button-hover)]"
+          >
           <CardSkeletonContainer showGradient={false} className="mx-auto">
             <LottieAnimation src="/lottie/leadgen.json" />
           </CardSkeletonContainer>
+	</Link>
           <CardTitle>Generation de lead</CardTitle>
           <CardDescription>
             Un marketing complet pour engager des prospects sur le marché et

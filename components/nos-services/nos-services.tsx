@@ -14,7 +14,14 @@ export const NosServices = () => {
       title: "BDR/SDR en qualité de service",
       description:
         "Boostez vos ventes avec des BDR et SDR experts. De la prospection jusqu'à la conclusion auprès des décideurs clés.",
-      content: <LottieAnimation src="/lottie/srdservice.json" />,
+      content: (
+	      	<Link
+          href="/nos-services/sdr-as-a-service"
+          className="text-[var(--button)] hover:text-[var(--button-hover)]"
+        >
+        <LottieAnimation src="/lottie/srdservice.json" />
+		</Link>
+      ),
       src: (
         <Link
           href="/nos-services/sdr-as-a-service"
@@ -28,7 +35,11 @@ export const NosServices = () => {
       title: "Identification de votre audience",
       description:
         "Définissez, identifiez, localisez et faites vous connaitre auprès de vos prochain clients. Nous pouvons vous aider à personnaliser la meilleure approche",
-      content: <LottieAnimation src="/lottie/bundle.json" />,
+      content: (
+	      <Link href="/nos-services/audience-identification" >
+	      	<LottieAnimation src="/lottie/bundle.json" />
+		</Link>
+	),
       src: (
         <Link
           href="/nos-services/audience-identification"
@@ -42,7 +53,11 @@ export const NosServices = () => {
       title: "Generation de leads",
       description:
         "Un marketing complet pour engager des prospects sur le marché et développer votre pipeline sur tous les canaux. Nos données, nos solutions et notre assistance seront adaptées à tous vos besoins.",
-      content: <LottieAnimation src="/lottie/leadgen.json" />,
+      content: (
+	      <Link href="/nos-services/lead-generation">
+	      	<LottieAnimation src="/lottie/leadgen.json" />
+		</Link>
+      ),
       src: (
         <Link
           href="/nos-services/lead-generation"

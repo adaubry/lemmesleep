@@ -62,22 +62,23 @@ const metricsData = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-40 bg-[color:var(--background)] text-[color:var(--text-color)] md:gap-80">
-      <HeroService
+    <main className="flex min-h-screen flex-col items-center justify-center bg-[color:var(--background)] text-[color:var(--text-color)] ">
+    <div className="pb-40"> 
+    <HeroService
         headingText="SDR/BDR en qualité de service"
         subheadingText="Concentrez-vous sur votre activité tout en laissant nos experts SDR/BDR gérer la phase cruciale de la prospection."
         buttonText="Prenez rendez-vous"
         lottieFile="/lottie/bundle.json"
         redirect="/contact"
       />
-
+      </div>
+        <Metrics metrics={metricsData} />
       <CharacteristicService
         heading="Transformez votre stratégie de vente"
         subheading="Nous transformons votre processus de vente en améliorant votre prospection, augmentant votre efficacité et réduisant vos coûts."
         content={content}
       />
       <div className="mx-auto">
-        <Metrics metrics={metricsData} />
       </div>
       <div className="w-screen">
         <CTA

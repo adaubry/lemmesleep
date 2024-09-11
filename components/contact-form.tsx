@@ -17,13 +17,13 @@ export const ContactForm = () => {
 
         <div className="mt-10 text-sm">
           <p className="text-sm text-neutral-200">Email</p>
-          <p className="text-sm text-neutral-400">
+          <p className="text-xl text-neutral-200">
             contact@lumena-marketing.com
           </p>
         </div>
         <div className="mt-4 text-sm">
           <p className="text-sm text-neutral-200">N° Téléphone</p>
-          <p className="text-sm text-neutral-400">+33 7 89 12 34 56</p>
+          <p className="text-xl text-neutral-200">+33 7 89 12 34 56</p>
         </div>
       </div>
       <div className="relative mx-auto flex w-full max-w-2xl flex-col items-start gap-4 overflow-hidden rounded-3xl bg-gradient-to-b from-[var(--foreground)] to-[var(--card-foreground)] p-4 md:p-10">

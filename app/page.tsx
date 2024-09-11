@@ -13,11 +13,11 @@ export default function Home() {
         <section>
           <Services />
         </section>
-        <section>
+ 	<section>
+	  <Team />
+	</section>
+ 	<section>
           <Process />
-        </section>
-        <section>
-          <Team />
         </section>
         <section>
           <Worldwide />
